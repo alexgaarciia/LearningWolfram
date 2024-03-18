@@ -1,0 +1,120 @@
+Notebook[{Cell[
+CellGroupData[{Cell[
+BoxData[{"Red","\n","Green","\n","Blue"}],"Input",
+CellLabel -> "In[37]:= ",ExpressionUUID -> "a93b3259-b226-4507-90dd-09fa56dd8a30"],Cell[
+BoxData[
+TemplateBox[Association["color" -> RGBColor[1,0,0]],"RGBColorSwatchTemplate"],StandardForm],
+"Output",CellLabel -> "Out[37]= ",ExpressionUUID -> "e79f53b5-4682-4847-a072-9e5d3aa6c424"],Cell[
+BoxData[
+TemplateBox[Association["color" -> RGBColor[0,1,0]],"RGBColorSwatchTemplate"],StandardForm],
+"Output",CellLabel -> "Out[38]= ",ExpressionUUID -> "c981e3ef-8a58-4f10-8621-2702cbcd3ecf"],Cell[
+BoxData[
+TemplateBox[Association["color" -> RGBColor[0,0,1]],"RGBColorSwatchTemplate"],StandardForm],
+"Output",CellLabel -> "Out[39]= ",ExpressionUUID -> "670a456a-9e90-4928-8331-1cde183dd2f3"]},
+Open],ExpressionUUID -> "ee5b1f54-0180-4798-8aa3-75792a963d52"],Cell[
+CellGroupData[
+{Cell[
+BoxData[{RowBox[{"Style","[",RowBox[{"1234",","," ","Red"}],"]"}],"\n",RowBox[
+{"Style","[",RowBox[{"1234",",","100"}],"]"}],"\n",RowBox[{"Table","[",RowBox[{RowBox[
+{"Style","[",RowBox[{"\"ABC\"",","," ","Red",","," ","y"}],"]"}],","," ",RowBox[{"{",RowBox[
+{"y",","," ","10",",","50",","," ","10"}],"}"}]}],"]"}]}],"Input",CellLabel -> "In[40]:= ",
+ExpressionUUID -> "2a6ed8e9-22f4-4190-a3b1-36c81c2464c6"],Cell[
+BoxData[StyleBox[
+"1234",RGBColor[1,0,0],StripOnInput -> False],StandardForm],"Output",CellLabel -> "Out[40]= ",
+ExpressionUUID -> "284d65ba-22b0-44de-8546-71cced2f6c7f"],Cell[
+BoxData[StyleBox[
+"1234",100,StripOnInput -> False],StandardForm],"Output",CellLabel -> "Out[41]= ",
+ExpressionUUID -> "83e5b241-fcf8-430f-8aaa-a7b352b72570"],Cell[
+BoxData[RowBox[{"{",RowBox[
+{StyleBox["\"ABC\"",RGBColor[1,0,0],10,StripOnInput -> False],",",StyleBox["\"ABC\"",
+RGBColor[1,0,0],20,StripOnInput -> False],",",StyleBox["\"ABC\"",RGBColor[1,0,0],
+30,StripOnInput -> False],",",StyleBox["\"ABC\"",RGBColor[1,0,0],40,StripOnInput -> False],",",StyleBox[
+"\"ABC\"",RGBColor[1,0,0],50,StripOnInput -> False]}],"}"}],StandardForm],"Output",
+CellLabel -> "Out[42]= ",ExpressionUUID -> "164f32cd-a423-4fe8-8e3e-aed07e706d68"]},
+Open],ExpressionUUID -> "35df2101-7963-4358-8d8b-9bef73dc30f1"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"ColorNegate","[","Blue","]"}]],"Input",CellLabel -> "In[43]:= ",
+ExpressionUUID -> "e1a97636-4a9b-431c-ab3f-8045ee3157df"],Cell[
+BoxData[TemplateBox[
+Association["color" -> RGBColor[1.`,1.`,0.`]],"RGBColorSwatchTemplate"],StandardForm],
+"Output",CellLabel -> "Out[43]= ",ExpressionUUID -> "f2479502-0142-4999-8f93-8ff600af8029"]},
+Open],ExpressionUUID -> "f6477fa1-82bf-4b5b-a5fa-96a892e34431"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Blend","[",RowBox[{"{",RowBox[{"Yellow",","," ","Red"}],"}"}],"]"}]],
+"Input",CellLabel -> "In[44]:= ",ExpressionUUID -> "f19757f6-c494-4584-a2d6-d553f0214291"],Cell[
+BoxData[
+TemplateBox[Association["color" -> RGBColor[1,Rational[1,2],0]],"RGBColorSwatchTemplate"],
+StandardForm],"Output",CellLabel -> "Out[44]= ",ExpressionUUID -> "7d51dd0a-38be-4221-98c4-eee5baca483a"]},
+Open],ExpressionUUID -> "46431224-9661-4005-b6db-6f8f78a80116"],Cell[
+CellGroupData[
+{Cell[
+BoxData[{RowBox[{"RGBColor","[",RowBox[{"1",",","0",",","0"}],"]"}],"\n",RowBox[
+{"RGBColor","[",RowBox[{"0",",","1",",","0"}],"]"}],"\n",RowBox[{RowBox[{"RGBColor","[",RowBox[
+{"0",",","0",",","1"}],"]"}],"\n"}]}],"Input",ExpressionUUID -> "52a56074-5a71-429e-b6b9-1ce7a1a09203"],Cell[
+BoxData[
+TemplateBox[Association["color" -> RGBColor[1,0,0]],"RGBColorSwatchTemplate"],StandardForm],
+"Output",CellLabel -> "Out[52]= ",ExpressionUUID -> "3ddf85c8-3345-4b1a-b102-e3bdcdd1b6d6"],Cell[
+BoxData[
+TemplateBox[Association["color" -> RGBColor[0,1,0]],"RGBColorSwatchTemplate"],StandardForm],
+"Output",CellLabel -> "Out[53]= ",ExpressionUUID -> "7090cf23-3841-47c7-82c6-ccb63ec15dd8"],Cell[
+BoxData[
+TemplateBox[Association["color" -> RGBColor[0,0,1]],"RGBColorSwatchTemplate"],StandardForm],
+"Output",CellLabel -> "Out[54]= ",ExpressionUUID -> "43242a9c-6adc-439f-8bb6-4493a8bd7fb8"],Cell[
+BoxData[
+TemplateBox[Association["color" -> RGBColor[345,25,3456]],"RGBColorSwatchTemplate"],
+StandardForm],"Output",CellLabel -> "Out[55]= ",ExpressionUUID -> "405be5bd-637a-4e1f-be17-558b620bf546"]},
+Open],ExpressionUUID -> "574cba33-3c86-4ce8-909c-991945058687"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Hue","[",RowBox[{RowBox[{"1","/","3"}],",","0.5",",","1"}],"]"}]],
+"Input",CellLabel -> "In[56]:= ",ExpressionUUID -> "4df22be4-04f7-471d-b447-5dd33e87c6b6"],Cell[
+BoxData[
+TemplateBox[Association["color" -> Hue[Rational[1,3],0.5`,1]],"HueColorSwatchTemplate"],
+StandardForm],"Output",CellLabel -> "Out[56]= ",ExpressionUUID -> "2723134c-b0ac-4008-9d79-a58bbf69cd92"]},
+Open],ExpressionUUID -> "edd814a2-f353-4cf0-9944-4747dbc091c3"],Cell[
+CellGroupData[
+{Cell[
+BoxData[{RowBox[{"RandomColor","[","]"}],"\n",RowBox[{"RandomColor","[","20","]"}]}],
+"Input",CellLabel -> "In[57]:= ",ExpressionUUID -> "b0739298-039e-481c-93ec-3dfa945b6dda"],Cell[
+BoxData[
+TemplateBox[Association["color" -> RGBColor[0.8075893518536095`,0.1798586058012237`,
+0.5854611652065003`]],"RGBColorSwatchTemplate"],StandardForm],"Output",CellLabel -> "Out[57]= ",
+ExpressionUUID -> "cdced4ff-aa8e-4cc6-9167-ff1935da628b"],Cell[
+BoxData[RowBox[{"{",RowBox[
+{TemplateBox[Association["color" -> RGBColor[0.782587642623066`,0.3359474627357455`,
+0.23668236087031214`]],"RGBColorSwatchTemplate"],",",TemplateBox[Association["color" -> RGBColor[
+0.6765046958371412`,0.37696241320390333`,0.08612434725518447`]],"RGBColorSwatchTemplate"],",",TemplateBox[
+Association["color" -> RGBColor[0.42072498777586564`,0.36895245483255`,0.7066945792692358`]],
+"RGBColorSwatchTemplate"],",",TemplateBox[Association["color" -> RGBColor[0.07953026915463868`,
+0.2623321546014774`,0.5969340171217183`]],"RGBColorSwatchTemplate"],",",TemplateBox[
+Association["color" -> RGBColor[0.4223532312423959`,0.746633798845634`,0.34666693059993237`]],
+"RGBColorSwatchTemplate"],",",TemplateBox[Association["color" -> RGBColor[0.47845468890132015`,
+0.9436394711536076`,0.7868731607167503`]],"RGBColorSwatchTemplate"],",",TemplateBox[
+Association["color" -> RGBColor[0.6212040848741163`,0.7128979375090021`,0.09004812403740092`]],
+"RGBColorSwatchTemplate"],",",TemplateBox[Association["color" -> RGBColor[0.801239613644553`,
+0.23968125802306006`,0.6419068562921095`]],"RGBColorSwatchTemplate"],",",TemplateBox[
+Association["color" -> RGBColor[0.3818527986343341`,0.4453993238927032`,0.5740638466774808`]],
+"RGBColorSwatchTemplate"],",",TemplateBox[Association["color" -> RGBColor[0.9519877138894177`,
+0.6516046214804685`,0.1447263277446278`]],"RGBColorSwatchTemplate"],",",TemplateBox[
+Association["color" -> RGBColor[0.0184055259210536`,0.9466863242489785`,0.9853996608611968`]],
+"RGBColorSwatchTemplate"],",",TemplateBox[Association["color" -> RGBColor[0.4624276400538976`,
+0.7445296857539994`,0.8929973568944616`]],"RGBColorSwatchTemplate"],",",TemplateBox[
+Association["color" -> RGBColor[0.11336626753815637`,0.44945765473300847`,0.14369247176747013`]],
+"RGBColorSwatchTemplate"],",",TemplateBox[Association["color" -> RGBColor[0.2541792131769143`,
+0.020723668792583583`,0.028870537425485177`]],"RGBColorSwatchTemplate"],",",TemplateBox[
+Association["color" -> RGBColor[0.5897311885275791`,0.8520536010768105`,0.6767375081479914`]],
+"RGBColorSwatchTemplate"],",",TemplateBox[Association["color" -> RGBColor[0.04794209401699345`,
+0.19741315842595264`,0.6996220433698122`]],"RGBColorSwatchTemplate"],",",TemplateBox[
+Association["color" -> RGBColor[0.30748061928974635`,0.31421961952886734`,0.2522828362649887`]],
+"RGBColorSwatchTemplate"],",",TemplateBox[Association["color" -> RGBColor[0.7936708705253455`,
+0.6288827283497118`,0.6423722361521809`]],"RGBColorSwatchTemplate"],",",TemplateBox[
+Association["color" -> RGBColor[0.025339160010543482`,0.1972090740636907`,0.06311719544080563`]],
+"RGBColorSwatchTemplate"],",",TemplateBox[Association["color" -> RGBColor[0.8995364241501813`,
+0.9929554584578082`,0.018185193764136187`]],"RGBColorSwatchTemplate"]}],"}"}],StandardForm],
+"Output",CellLabel -> "Out[58]= ",ExpressionUUID -> "eb82076b-20e0-4ec1-9fc6-95600563abba"]},
+Open],ExpressionUUID -> "53f61261-ed9d-4a06-8b64-5b534dac0e89"],Cell[
+BoxData[""],
+"Input",ExpressionUUID -> "018e63d5-9a1a-44a8-a205-b642212421c7"]},StyleDefinitions -> "Default.nb",
+FrontEndVersion -> "14. for Wolfram Cloud 1.68 (February 7, 2024)"]

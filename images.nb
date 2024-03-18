@@ -1,0 +1,33 @@
+Notebook[{Cell[
+BoxData[RowBox[{RowBox[{"(*","\n",RowBox[{RowBox[{RowBox[{"CurrentImage","[","]"}],"\n",RowBox[
+{"ColorNegate","[","]"}],"\n",RowBox[{"Blur","[","]"}]}],","," ",RowBox[{RowBox[{RowBox[
+{"Blur","[",RowBox[{"image",","," ","n"}],"]"}],"\n",RowBox[{"ImageCollage","[","images","]"}],"\n",RowBox[
+{"DominantColors","[","image","]"}],"\n",RowBox[{"Binarize","[","image","]"}]}],":"," ",RowBox[
+{"replace"," ","bright"," ","colors"," ","with"," ","white"," ","and"," ","dark"," ","colors"," ","with"," ","black","\n",RowBox[
+{"EdgeDetect","[","image","]"}]}],":"," ",RowBox[{"detect"," ","edges","\n",RowBox[
+{"ImageAdd","[",RowBox[{"image1",","," ","image2",",","..."}],"]"}],"\n",RowBox[{"ImageRestyle","[",RowBox[
+{"image1",","," ","image2"}],"]"}]}],":"," ",RowBox[{RowBox[{RowBox[{"make"," ","one"," ","image"," ","have"," ","the"," ","style"," ","of"," ","another","\n","\n","We"," ","can"," ","even"," ","use"," ","manipulate"}],"..."}],"\n",RowBox[
+{"Manipulate","[",RowBox[{RowBox[{"Binarize","[",RowBox[{"image",","," ","t"}],"]"}],","," ",RowBox[
+{"{",RowBox[{"t",",","0",",","1"}],"}"}]}],"]"}]}]}]}],"\n","*)"}],"\n"}]],"Input",
+CellLabel -> "In[86]:= ",ExpressionUUID -> "77981d2b-d1f5-4514-b1a3-5433f7af8d93"],Cell[
+CellGroupData[
+{Cell[
+BoxData[""],"Input",ExpressionUUID -> "0706c6f9-eb81-4443-a0fa-49425964f3ea"],Cell[
+BoxData[
+TagBox[StyleBox[DynamicModuleBox[{Set[t$$,0.9420000000000001`],Set[Typeset`show$$,
+True],Set[Typeset`bookmarkList$$,{}],Set[Typeset`bookmarkMode$$,"Menu"],Typeset`animator$$,Set[
+Typeset`animvar$$,1],Set[Typeset`name$$,"\"untitled\""],Set[Typeset`specs$$,{{Hold[
+t$$],0,1,ControlType -> Manipulator}}],Set[Typeset`size$$,Automatic],Set[Typeset`update$$,
+0],Set[Typeset`initDone$$,False],Set[Typeset`skipInitDone$$,True]},DynamicBox[Manipulate`ManipulateBoxes[
+1,StandardForm,RuleDelayed["Variables",{Set[t$$,0]}],RuleDelayed["ControllerVariables",
+{}],RuleDelayed["OtherVariables",{Typeset`show$$,Typeset`bookmarkList$$,Typeset`bookmarkMode$$,Typeset`animator$$,Typeset`animvar$$,Typeset`name$$,Typeset`specs$$,Typeset`size$$,Typeset`update$$,Typeset`initDone$$,Typeset`skipInitDone$$}],
+RuleDelayed["Body",Binarize[CurrentImage[],t$$]],RuleDelayed["Specifications",{{t$$,0,1}}],
+RuleDelayed["Options",{}],RuleDelayed["DefaultOptions",{}]],SingleEvaluation -> True],
+RuleDelayed[DynamicModuleValues,{}],RuleDelayed[Deinitialization,None],RuleDelayed[
+UntrackedVariables,{Typeset`size$$}],SynchronousInitialization -> True,RuleDelayed[
+UnsavedVariables,{Typeset`initDone$$}],RuleDelayed[UndoTrackedVariables,{Typeset`show$$,Typeset`bookmarkMode$$}],
+ExpressionUUID -> "fc22a948-172c-43ae-96dd-e94fa12e3cce"],"Manipulate",Deployed -> True,
+StripOnInput -> False],Manipulate`InterpretManipulate[1]],StandardForm],"Output",
+CellLabel -> "Out[85]= ",ExpressionUUID -> "0cd3e16c-7965-4215-b206-82b1240be9dc"]},
+Open],ExpressionUUID -> "32cacb91-919b-4cb5-a301-8f7eb08d7f87"]},StyleDefinitions -> "Default.nb",
+FrontEndVersion -> "14. for Wolfram Cloud 1.68 (February 7, 2024)"]

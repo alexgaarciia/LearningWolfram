@@ -1,0 +1,144 @@
+Notebook[{Cell[
+CellGroupData[{Cell[
+BoxData[RowBox[{RowBox[{"(*","Circle","*)"}],"\n",RowBox[
+{"Graphics","[",RowBox[{"Circle","[","]"}],"]"}]}]],"Input",CellLabel -> "In[59]:= ",
+ExpressionUUID -> "d2e57acb-009d-4481-a2ec-1230050da9f1"],Cell[
+BoxData[GraphicsBox[
+CircleBox[{0,0}],ExpressionUUID -> "c835d375-67e8-4176-a03b-7d2b15d613a8"],StandardForm],
+"Output",CellLabel -> "Out[59]= ",ExpressionUUID -> "26d36e4b-089f-4cc5-8f5d-767c8a20d614"]},
+Open],ExpressionUUID -> "224c6484-a7d3-4bee-be33-dfe6ece0e4fc"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{RowBox[{"(*","Disk","*)"}],"\n",RowBox[{"Graphics","[",RowBox[
+{"Disk","[","]"}],"]"}]}]],"Input",ExpressionUUID -> "e1e74142-d799-4f74-b227-77b2f8cebeb7"],Cell[
+BoxData[
+GraphicsBox[DiskBox[{0,0}],ExpressionUUID -> "047a7853-61f6-4555-aca9-058d1287db81"],
+StandardForm],"Output",CellLabel -> "Out[60]= ",ExpressionUUID -> "ce4025bc-a072-440e-b30c-27ee6ec2588e"],Cell[
+BoxData[
+GraphicsBox[InterpretationBox[PolygonBox[NCache[{{Power[Plus[Rational[5,8],Times[
+Rational[-1,8],Power[5,Rational[1,2]]]],Rational[1,2]],Times[Rational[1,4],Plus[-1,
+Times[-1,Power[5,Rational[1,2]]]]]},{Power[Plus[Rational[5,8],Times[Rational[1,8],
+Power[5,Rational[1,2]]]],Rational[1,2]],Times[Rational[1,4],Plus[-1,Power[5,Rational[
+1,2]]]]},{0,1},{Times[-1,Power[Plus[Rational[5,8],Times[Rational[1,8],Power[5,Rational[
+1,2]]]],Rational[1,2]]],Times[Rational[1,4],Plus[-1,Power[5,Rational[1,2]]]]},{Times[
+-1,Power[Plus[Rational[5,8],Times[Rational[-1,8],Power[5,Rational[1,2]]]],Rational[
+1,2]]],Times[Rational[1,4],Plus[-1,Times[-1,Power[5,Rational[1,2]]]]]}},{{0.5877852522924731`,-0.8090169943749475`},{0.9510565162951535`,0.30901699437494745`},{0,1},{-0.9510565162951535`,0.30901699437494745`},{-0.5877852522924731`,-0.8090169943749475`}}]],
+RegularPolygon[5]]],StandardForm],"Output",CellLabel -> "Out[61]= ",ExpressionUUID -> "a3e81530-fb0c-445d-bf56-a6f37ca651ed"]},
+Open],ExpressionUUID -> "5d4e3e00-e388-4659-a93e-135de4a197fa"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"\n(*Polygon*)\nGraphics[RegularPolygon[5]]"}]],"Input",CellLabel -> "In[62]:= ",
+ExpressionUUID -> "746e3bff-3e7f-4860-818d-12511541d8c8"],Cell[
+BoxData[GraphicsBox[
+InterpretationBox[PolygonBox[NCache[{{Power[Plus[Rational[5,8],Times[Rational[-1,
+8],Power[5,Rational[1,2]]]],Rational[1,2]],Times[Rational[1,4],Plus[-1,Times[-1,Power[
+5,Rational[1,2]]]]]},{Power[Plus[Rational[5,8],Times[Rational[1,8],Power[5,Rational[
+1,2]]]],Rational[1,2]],Times[Rational[1,4],Plus[-1,Power[5,Rational[1,2]]]]},{0,1},{Times[
+-1,Power[Plus[Rational[5,8],Times[Rational[1,8],Power[5,Rational[1,2]]]],Rational[
+1,2]]],Times[Rational[1,4],Plus[-1,Power[5,Rational[1,2]]]]},{Times[-1,Power[Plus[
+Rational[5,8],Times[Rational[-1,8],Power[5,Rational[1,2]]]],Rational[1,2]]],Times[
+Rational[1,4],Plus[-1,Times[-1,Power[5,Rational[1,2]]]]]}},{{0.5877852522924731`,-0.8090169943749475`},{0.9510565162951535`,0.30901699437494745`},{0,1},{-0.9510565162951535`,0.30901699437494745`},{-0.5877852522924731`,-0.8090169943749475`}}]],
+RegularPolygon[5]]],StandardForm],"Output",CellLabel -> "Out[62]= ",ExpressionUUID -> "34cf0662-7f88-4af4-b1bb-37019d22aaad"]},
+Open],ExpressionUUID -> "4afb87b7-2a13-4d38-ac14-d70ee47ce6be"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Table","[",RowBox[{RowBox[{"Graphics","[",RowBox[{"RegularPolygon","[","n","]"}],"]"}],","," ",RowBox[
+{"{",RowBox[{"n",",","5",",","10"}],"}"}]}],"]"}]],"Input",CellLabel -> "In[63]:= ",
+ExpressionUUID -> "8593a146-8735-4124-b322-ebf886a524ab"],Cell[
+BoxData[RowBox[{"{",RowBox[
+{GraphicsBox[InterpretationBox[PolygonBox[NCache[{{Power[Plus[Rational[5,8],Times[
+Rational[-1,8],Power[5,Rational[1,2]]]],Rational[1,2]],Times[Rational[1,4],Plus[-1,
+Times[-1,Power[5,Rational[1,2]]]]]},{Power[Plus[Rational[5,8],Times[Rational[1,8],
+Power[5,Rational[1,2]]]],Rational[1,2]],Times[Rational[1,4],Plus[-1,Power[5,Rational[
+1,2]]]]},{0,1},{Times[-1,Power[Plus[Rational[5,8],Times[Rational[1,8],Power[5,Rational[
+1,2]]]],Rational[1,2]]],Times[Rational[1,4],Plus[-1,Power[5,Rational[1,2]]]]},{Times[
+-1,Power[Plus[Rational[5,8],Times[Rational[-1,8],Power[5,Rational[1,2]]]],Rational[
+1,2]]],Times[Rational[1,4],Plus[-1,Times[-1,Power[5,Rational[1,2]]]]]}},{{0.5877852522924731`,-0.8090169943749475`},{0.9510565162951535`,0.30901699437494745`},{0,1},{-0.9510565162951535`,0.30901699437494745`},{-0.5877852522924731`,-0.8090169943749475`}}]],
+RegularPolygon[5]]],",",GraphicsBox[InterpretationBox[PolygonBox[NCache[{{Rational[
+1,2],Times[Rational[-1,2],Power[3,Rational[1,2]]]},{1,0},{Rational[1,2],Times[Rational[
+1,2],Power[3,Rational[1,2]]]},{Rational[-1,2],Times[Rational[1,2],Power[3,Rational[
+1,2]]]},{-1,0},{Rational[-1,2],Times[Rational[-1,2],Power[3,Rational[1,2]]]}},{{0.5`,-0.8660254037844386`},{1,0},{0.5`,0.8660254037844386`},{-0.5`,0.8660254037844386`},{-1,0},{-0.5`,-0.8660254037844386`}}]],
+RegularPolygon[6]]],",",GraphicsBox[InterpretationBox[PolygonBox[NCache[{{Sin[Times[
+Rational[1,7],Pi]],Times[-1,Cos[Times[Rational[1,7],Pi]]]},{Cos[Times[Rational[1,
+14],Pi]],Times[-1,Sin[Times[Rational[1,14],Pi]]]},{Cos[Times[Rational[3,14],Pi]],Sin[
+Times[Rational[3,14],Pi]]},{0,1},{Times[-1,Cos[Times[Rational[3,14],Pi]]],Sin[Times[
+Rational[3,14],Pi]]},{Times[-1,Cos[Times[Rational[1,14],Pi]]],Times[-1,Sin[Times[
+Rational[1,14],Pi]]]},{Times[-1,Sin[Times[Rational[1,7],Pi]]],Times[-1,Cos[Times[
+Rational[1,7],Pi]]]}},{{0.4338837391175581`,-0.9009688679024191`},{0.9749279121818236`,-0.2225209339563144`},{0.7818314824680298`,0.6234898018587335`},{0,1},{-0.7818314824680298`,0.6234898018587335`},{-0.9749279121818236`,-0.2225209339563144`},{-0.4338837391175581`,-0.9009688679024191`}}]],
+RegularPolygon[7]]],",",GraphicsBox[InterpretationBox[PolygonBox[NCache[{{Sin[Times[
+Rational[1,8],Pi]],Times[-1,Cos[Times[Rational[1,8],Pi]]]},{Cos[Times[Rational[1,
+8],Pi]],Times[-1,Sin[Times[Rational[1,8],Pi]]]},{Cos[Times[Rational[1,8],Pi]],Sin[
+Times[Rational[1,8],Pi]]},{Sin[Times[Rational[1,8],Pi]],Cos[Times[Rational[1,8],Pi]]},{Times[
+-1,Sin[Times[Rational[1,8],Pi]]],Cos[Times[Rational[1,8],Pi]]},{Times[-1,Cos[Times[
+Rational[1,8],Pi]]],Sin[Times[Rational[1,8],Pi]]},{Times[-1,Cos[Times[Rational[1,
+8],Pi]]],Times[-1,Sin[Times[Rational[1,8],Pi]]]},{Times[-1,Sin[Times[Rational[1,8],
+Pi]]],Times[-1,Cos[Times[Rational[1,8],Pi]]]}},{{0.3826834323650898`,-0.9238795325112867`},{0.9238795325112867`,-0.3826834323650898`},{0.9238795325112867`,0.3826834323650898`},{0.3826834323650898`,0.9238795325112867`},{-0.3826834323650898`,0.9238795325112867`},{-0.9238795325112867`,0.3826834323650898`},{-0.9238795325112867`,-0.3826834323650898`},{-0.3826834323650898`,-0.9238795325112867`}}]],
+RegularPolygon[8]]],",",GraphicsBox[InterpretationBox[PolygonBox[NCache[{{Sin[Times[
+Rational[1,9],Pi]],Times[-1,Cos[Times[Rational[1,9],Pi]]]},{Times[Rational[1,2],Power[
+3,Rational[1,2]]],Rational[-1,2]},{Cos[Times[Rational[1,18],Pi]],Sin[Times[Rational[
+1,18],Pi]]},{Sin[Times[Rational[2,9],Pi]],Cos[Times[Rational[2,9],Pi]]},{0,1},{Times[
+-1,Sin[Times[Rational[2,9],Pi]]],Cos[Times[Rational[2,9],Pi]]},{Times[-1,Cos[Times[
+Rational[1,18],Pi]]],Sin[Times[Rational[1,18],Pi]]},{Times[Rational[-1,2],Power[3,
+Rational[1,2]]],Rational[-1,2]},{Times[-1,Sin[Times[Rational[1,9],Pi]]],Times[-1,
+Cos[Times[Rational[1,9],Pi]]]}},{{0.3420201433256687`,-0.9396926207859084`},{0.8660254037844386`,-0.5`},{0.984807753012208`,0.17364817766693033`},{0.6427876096865393`,0.766044443118978`},{0,1},{-0.6427876096865393`,0.766044443118978`},{-0.984807753012208`,0.17364817766693033`},{-0.8660254037844386`,-0.5`},{-0.3420201433256687`,-0.9396926207859084`}}]],
+RegularPolygon[9]]],",",GraphicsBox[InterpretationBox[PolygonBox[NCache[{{Times[Rational[
+1,4],Plus[-1,Power[5,Rational[1,2]]]],Times[-1,Power[Plus[Rational[5,8],Times[Rational[
+1,8],Power[5,Rational[1,2]]]],Rational[1,2]]]},{Times[Rational[1,4],Plus[1,Power[
+5,Rational[1,2]]]],Times[-1,Power[Plus[Rational[5,8],Times[Rational[-1,8],Power[5,
+Rational[1,2]]]],Rational[1,2]]]},{1,0},{Times[Rational[1,4],Plus[1,Power[5,Rational[
+1,2]]]],Power[Plus[Rational[5,8],Times[Rational[-1,8],Power[5,Rational[1,2]]]],Rational[
+1,2]]},{Times[Rational[1,4],Plus[-1,Power[5,Rational[1,2]]]],Power[Plus[Rational[
+5,8],Times[Rational[1,8],Power[5,Rational[1,2]]]],Rational[1,2]]},{Times[Rational[
+1,4],Plus[1,Times[-1,Power[5,Rational[1,2]]]]],Power[Plus[Rational[5,8],Times[Rational[
+1,8],Power[5,Rational[1,2]]]],Rational[1,2]]},{Times[Rational[1,4],Plus[-1,Times[
+-1,Power[5,Rational[1,2]]]]],Power[Plus[Rational[5,8],Times[Rational[-1,8],Power[
+5,Rational[1,2]]]],Rational[1,2]]},{-1,0},{Times[Rational[1,4],Plus[-1,Times[-1,Power[
+5,Rational[1,2]]]]],Times[-1,Power[Plus[Rational[5,8],Times[Rational[-1,8],Power[
+5,Rational[1,2]]]],Rational[1,2]]]},{Times[Rational[1,4],Plus[1,Times[-1,Power[5,
+Rational[1,2]]]]],Times[-1,Power[Plus[Rational[5,8],Times[Rational[1,8],Power[5,Rational[
+1,2]]]],Rational[1,2]]]}},{{0.30901699437494745`,-0.9510565162951535`},{0.8090169943749475`,-0.5877852522924731`},{1,0},{0.8090169943749475`,0.5877852522924731`},{0.30901699437494745`,0.9510565162951535`},{-0.30901699437494745`,0.9510565162951535`},{-0.8090169943749475`,0.5877852522924731`},{-1,0},{-0.8090169943749475`,-0.5877852522924731`},{-0.30901699437494745`,-0.9510565162951535`}}]],
+RegularPolygon[10]]]}],"}"}],StandardForm],"Output",CellLabel -> "Out[63]= ",ExpressionUUID -> "b1fd1347-eb71-46a1-abf0-dc1453baf65f"]},
+Open],ExpressionUUID -> "8435d1c8-bd25-4974-b5e0-b709f219be9c"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Graphics","[",RowBox[{"Style","[",RowBox[{RowBox[{"RegularPolygon","[","5","]"}],","," ","Orange"}],"]"}],"]"}]],
+"Input",CellLabel -> "In[64]:= ",ExpressionUUID -> "3e193af0-dff5-46c6-bb9f-da68897d791c"],Cell[
+BoxData[
+GraphicsBox[StyleBox[InterpretationBox[PolygonBox[NCache[{{Power[Plus[Rational[5,
+8],Times[Rational[-1,8],Power[5,Rational[1,2]]]],Rational[1,2]],Times[Rational[1,
+4],Plus[-1,Times[-1,Power[5,Rational[1,2]]]]]},{Power[Plus[Rational[5,8],Times[Rational[
+1,8],Power[5,Rational[1,2]]]],Rational[1,2]],Times[Rational[1,4],Plus[-1,Power[5,
+Rational[1,2]]]]},{0,1},{Times[-1,Power[Plus[Rational[5,8],Times[Rational[1,8],Power[
+5,Rational[1,2]]]],Rational[1,2]]],Times[Rational[1,4],Plus[-1,Power[5,Rational[1,
+2]]]]},{Times[-1,Power[Plus[Rational[5,8],Times[Rational[-1,8],Power[5,Rational[1,
+2]]]],Rational[1,2]]],Times[Rational[1,4],Plus[-1,Times[-1,Power[5,Rational[1,2]]]]]}},
+{{0.5877852522924731`,-0.8090169943749475`},{0.9510565162951535`,0.30901699437494745`},{0,1},{-0.9510565162951535`,0.30901699437494745`},{-0.5877852522924731`,-0.8090169943749475`}}]],
+RegularPolygon[5]],{RGBColor[1,0.5`,0]},StripOnInput -> False]],StandardForm],"Output",
+CellLabel -> "Out[64]= ",ExpressionUUID -> "898e95b9-32d8-4415-8af0-1e181fa83356"]},
+Open],ExpressionUUID -> "709c089e-b143-4c94-b723-27f39b8308a4"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Graphics3D","[",RowBox[{"Sphere","[","]"}],"]"}]],"Input",
+CellLabel -> "In[65]:= ",ExpressionUUID -> "810b2a88-e534-4566-a0b9-12210f464e9b"],Cell[
+BoxData[
+Graphics3DBox[SphereBox[{0,0,0}],ExpressionUUID -> "0cf098d2-6e14-403f-9c99-cf8718138992"],
+StandardForm],"Output",CellLabel -> "Out[65]= ",ExpressionUUID -> "35d6dc23-f0e3-4f85-8047-e4083e137b50"]},
+Open],ExpressionUUID -> "a9ab9a2b-a17c-4868-ba3c-e22793594892"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"{",RowBox[{RowBox[{"Graphics3D","[",RowBox[{"Cube","[","]"}],"]"}],","," ",RowBox[
+{"Graphics3D","[",RowBox[{"Cylinder","[","]"}],"]"}],","," ",RowBox[{"Graphics3D","[",RowBox[
+{"Cone","[","]"}],"]"}]}],"}"}]],"Input",CellLabel -> "In[66]:= ",ExpressionUUID -> "05c8d8dc-ae0d-4bf1-a67e-14ca97bf7e87"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{Graphics3DBox[InterpretationBox[PolyhedronBox[NCache[{{Rational[
+-1,2],Rational[1,2],Rational[-1,2]},{Rational[1,2],Rational[1,2],Rational[-1,2]},{Rational[
+1,2],Rational[-1,2],Rational[-1,2]},{Rational[-1,2],Rational[-1,2],Rational[-1,2]},{Rational[
+-1,2],Rational[1,2],Rational[1,2]},{Rational[1,2],Rational[1,2],Rational[1,2]},{Rational[
+1,2],Rational[-1,2],Rational[1,2]},{Rational[-1,2],Rational[-1,2],Rational[1,2]}},
+{{-0.5`,0.5`,-0.5`},{0.5`,0.5`,-0.5`},{0.5`,-0.5`,-0.5`},{-0.5`,-0.5`,-0.5`},{-0.5`,0.5`,0.5`},{0.5`,0.5`,0.5`},{0.5`,-0.5`,0.5`},{-0.5`,-0.5`,0.5`}}],
+{{1,2,3,4},{5,6,2,1},{6,7,3,2},{7,8,4,3},{8,5,1,4},{8,7,6,5}}],Cube[]],ExpressionUUID -> "529749a3-6616-4db5-95d8-07151615d026"],",",Graphics3DBox[
+CylinderBox[{{0,0,-1},{0,0,1}}],ExpressionUUID -> "572992fa-6440-4a5a-9369-110ba385c644"],",",Graphics3DBox[
+ConeBox[{{0,0,-1},{0,0,1}}],ExpressionUUID -> "6389d7f4-7aaa-4e85-b621-405d5ea90017"]}],"}"}],
+StandardForm],"Output",CellLabel -> "Out[66]= ",ExpressionUUID -> "f05d2f83-d2f1-4420-b1ae-f8740eabf739"]},
+Open],ExpressionUUID -> "c0aa1266-e7ac-4827-ba90-6caee2055da5"]},StyleDefinitions -> "Default.nb",
+FrontEndVersion -> "14. for Wolfram Cloud 1.68 (February 7, 2024)"]
